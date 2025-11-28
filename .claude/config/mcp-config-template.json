@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "comment": "Add your MCP servers here. Only load what you need!",
+    "example-file-server": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"],
+      "disabled": true
+    },
+    "example-git-server": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git", "/path/to/repo"],
+      "disabled": true
+    }
+  }
+}

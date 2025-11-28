@@ -1,0 +1,22 @@
+{
+  "name": "feature-impl",
+  "created": "2025-11-28T10:30:00Z",
+  "session_id": "abc123",
+  "context": {
+    "task": "Implement user authentication feature",
+    "files_modified": [
+      "src/auth/login.py",
+      "src/auth/session.py",
+      "tests/test_auth.py"
+    ],
+    "decisions": [
+      "Using JWT tokens with 1-hour expiry",
+      "Session storage in Redis",
+      "bcrypt for password hashing"
+    ],
+    "progress": "Core authentication complete (80%). Token refresh pending."
+  },
+  "tokens": 118000,
+  "next_agent": "security-auditor",
+  "next_task": "Security review of authentication implementation"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "expert-name",
+  "type": "expert-agent",
+  "level": 4,
+  "domain": "Specific domain",
+  "typical_token_usage": "50-100K",
+  "typical_duration": "15-30 minutes"
+}

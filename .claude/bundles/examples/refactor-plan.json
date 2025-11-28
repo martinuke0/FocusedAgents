@@ -1,0 +1,21 @@
+{
+  "name": "refactor-plan",
+  "created": "2025-11-28T14:00:00Z",
+  "session_id": "def456",
+  "context": {
+    "task": "Refactor legacy API module",
+    "files_modified": [
+      "src/api/legacy.py",
+      "src/api/endpoints.py"
+    ],
+    "decisions": [
+      "Maintaining backward compatibility",
+      "Gradual migration over 3 phases",
+      "New API under /v2/ prefix"
+    ],
+    "progress": "Phase 1 complete (30%). Endpoints migrated: 5/15."
+  },
+  "tokens": 95000,
+  "next_agent": "primary",
+  "next_task": "Continue migrating remaining endpoints in Phase 2"
+}

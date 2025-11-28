@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "comment": "File operations - 6K tokens"
+    },
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git", "."],
+      "comment": "Version control - 5K tokens"
+    },
+    "web-fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-web-fetch"],
+      "comment": "HTTP requests - 4K tokens",
+      "disabled": true
+    }
+  },
+  "comment": "Recommended MCP configuration. Enable web-fetch if needed. Total: ~11K tokens with git+filesystem, ~15K with all three."
+}

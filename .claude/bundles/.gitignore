@@ -1,0 +1,5 @@
+# Ignore bundle files (project-specific)
+*.json
+
+# Keep examples
+!examples/*.json

@@ -1,0 +1,8 @@
+{
+  "name": "agent-name",
+  "type": "sub-agent",
+  "level": 2,
+  "purpose": "Brief purpose",
+  "typical_token_usage": "20-40K",
+  "typical_duration": "2-5 minutes"
+}
